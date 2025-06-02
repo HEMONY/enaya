@@ -1,6 +1,5 @@
 import BottomNavigation from '@/components/layout/BottomNavigation';
 import { FaTwitter, FaTelegram, FaInstagram, FaYoutube, FaCheck, FaCoins } from 'react-icons/fa';
-import { useState } from 'react';
 
 export default function TasksPage() {
   const [tasks, setTasks] = useState([
